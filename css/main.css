@@ -15,10 +15,11 @@ body
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+    padding: 20px;
 }
 svg
 {
-    width: 70%;
+    max-width: 100%;
     height: auto;
 }
 .wawe {
@@ -33,26 +34,29 @@ svg
     animation-delay: 1200ms;
 }
   @keyframes bounce {
-    0% {
+    0% 
+    {
       transform: translateY(0px) rotate(0);
     }
-    100% {
+    100% 
+    {
       transform: translateY(-5px) rotate(1deg);
     }
-  }
-  .opacity
-  {
+}
+.opacity
+{
     animation: opacity 1s infinite ease-in-out alternate;
-  }
-  @keyframes opacity {
-      0%
-      {
+}
+@keyframes opacity {
+    0%
+    {
         transform: translateY(0px) rotate(0);
-          opacity: 0;
-      }
-      100%
-      {
-        transform: translateY(-5px) rotate(1deg);
-          opacity: 1;
-      }
-  }
+        opacity: 0;
+    }
+    100%
+    {
+        transform: translateY(-5px) rotate(2deg);
+        opacity: 1;
+    }
+}
+/**********Media***********/
