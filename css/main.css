@@ -19,12 +19,20 @@ body
 }
 svg
 {
-    max-width: 100%;
+    max-width: 70%;
     height: auto;
 }
 .wawe {
-    animation: bounce 1s infinite ease-in-out alternate;
+    animation: bounce 800ms infinite ease-in-out alternate;
   }
+.opacity
+{
+    animation: opacity 800ms infinite ease-in-out alternate;
+}
+.fly
+{
+    animation: fly 20s infinite ease-in-out normal;
+}
 .N2
 {
     animation-delay: 500ms;
@@ -32,6 +40,18 @@ svg
 .N3
 {
     animation-delay: 1200ms;
+}
+.N4
+{
+    animation-delay: 1s;
+}
+.N5
+{
+    animation-delay: 1400ms;
+}
+.N6
+{
+    animation-delay: 1300ms;
 }
   @keyframes bounce {
     0% 
@@ -42,10 +62,6 @@ svg
     {
       transform: translateY(-5px) rotate(1deg);
     }
-}
-.opacity
-{
-    animation: opacity 1s infinite ease-in-out alternate;
 }
 @keyframes opacity {
     0%
@@ -59,4 +75,13 @@ svg
         opacity: 1;
     }
 }
-/**********Media***********/
+@keyframes fly {
+    0%
+    {
+        transform: translateX(100%);
+    }
+    100%
+    {
+        transform: translateX(-100%);
+    }
+}
