@@ -28,6 +28,7 @@ svg
 .opacity
 {
     animation: opacity 850ms infinite ease-in-out alternate;
+    opacity: 0;
 }
 .fly
 {
