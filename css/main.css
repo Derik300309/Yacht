@@ -34,9 +34,13 @@ svg
 {
     animation: fly 20s infinite ease-in-out normal;
 }
+.N1
+{
+    animation-delay: 350ms;
+}
 .N2
 {
-    animation-delay: 500ms;
+    animation-delay: 700ms;
 }
 .N3
 {
