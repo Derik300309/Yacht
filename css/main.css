@@ -85,3 +85,10 @@ svg
         transform: translateX(-100%);
     }
 }
+@media(max-width: 991px)
+{
+    svg
+    {
+        max-width: 100%;
+    }
+}
